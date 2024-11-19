@@ -21,6 +21,7 @@ export const Button: React.FC<ButtonProps> = (props) => {
 
   return (
     <button
+      type='button'
       className={clsx(styles.button, {
         [styles.primary]: color === 'primary',
         [styles.secondary]: color === 'secondary',

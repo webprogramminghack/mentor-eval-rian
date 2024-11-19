@@ -1,0 +1,33 @@
+.inputTask {
+    display: flex;
+    align-items: center;
+    margin-bottom: rem-calc(25);
+  
+    input {
+      flex: 1;
+      padding: rem-calc(10) rem-calc(25);
+      border: 1px solid #d3d9e7;
+      border-radius: rem-calc(25);
+      font-size: 1rem;
+      height: rem-calc(45);
+  
+      &:focus {
+        border-color: #0093dd;
+        outline: none;
+      }
+    }
+  
+//     button {
+//       margin-left: 0.5rem;
+//       background: #0093dd;
+//       color: #fff;
+//       border: none;
+//       border-radius: 5px;
+//       padding: 0.5rem 1rem;
+//       cursor: pointer;
+  
+//       &:hover {
+//         background: #007bb5;
+//       }
+//   }
+}

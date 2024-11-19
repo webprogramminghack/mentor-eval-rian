@@ -1,0 +1,18 @@
+.header {
+    text-align: center;
+    margin-bottom: rem-calc(50);
+    margin-top: rem-calc(50);
+
+  }
+  
+  .header h1 {
+    font-size: rem-calc(24);
+    font-weight: 700;
+    margin-bottom: rem-calc(20);
+    color: #333;
+  }
+  
+  .header p {
+    font-size: rem-calc(16);
+    color: #666;
+  }
